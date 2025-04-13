@@ -17,7 +17,6 @@ install_packages()
     # hub-ctrl
     PKGLIST="${PKGLIST} libusb"
     # AVR chip installation and building
-    #PKGLIST="${PKGLIST} avrdude avr-gcc avr-binutils avr-libc"
     # ARM chip installation and building
     AURLIST="stm32flash"
     PKGLIST="${PKGLIST} arm-none-eabi-newlib"
